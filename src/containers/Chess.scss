@@ -1,0 +1,43 @@
+li {
+    list-style: none;
+}
+
+.body-content {
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    .main-content {
+        display: block;
+        border: 5px solid blue;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 70px;
+        .chess-board {
+            // margin-bottom: -5px;
+            .black-square {
+                width: 70px;
+                height: 70px;
+                background-color: grey;
+                display: inline-block;
+                text-align: center;
+                top: 50%;
+            }
+            .white-square {
+                width: 70px;
+                height: 70px;
+                background-color: white;
+                display: inline-block;
+                text-align: center;
+                top: 50%;
+            }
+            .blank-square {
+                width: 70px;
+                height: 70px;
+                background-color: grey;
+                display: inline-block;
+                text-align: center;
+                top: 50%;
+            }
+        }
+    }
+}
